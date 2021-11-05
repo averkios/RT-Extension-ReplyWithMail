@@ -1,7 +1,7 @@
 {
    "abstract" : "RT-Extension-ReplyWithMail Extension",
    "author" : [
-      "Best Practical Solutions, LLC <modules@bestpractical.com>"
+      "Averkios Averkiadis <aaverkios at outlook dot com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Module::Install version 1.19, CPAN::Meta::Converter version 2.150010",
@@ -40,7 +40,7 @@
          "http://opensource.org/licenses/gpl-license.php"
       ],
       "repository" : {
-         "url" : "https://github.com/bestpractical/rt-extension-replywithmail"
+         "url" : "https://github.com/averkios/RT-Extension-ReplyWithMail"
       }
    },
    "version" : "0.01",

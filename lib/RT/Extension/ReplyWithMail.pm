@@ -6,18 +6,15 @@ our $VERSION = '0.01';
 
 =head1 NAME
 
-RT-Extension-ReplyWithMail - [One line description of module's purpose here]
+RT-Extension-ReplyWithMail - Reply to the ticker using your default mail client
 
 =head1 DESCRIPTION
 
-[Why would someone install this extension? What does it do? What problem
-does it solve?]
+This extension adds an extra action in your actions menu, named "ReplyWithMail". This action uses the mailto: HTML tag to generate a base mail structure, so that you can reply using your native email client instead of RT's WebUI
 
 =head1 RT VERSION
 
-Works with RT [What versions of RT is this known to work with?]
-
-[Make sure to use requires_rt and rt_too_new in Makefile.PL]
+Works with RT 5.0.2
 
 =head1 INSTALLATION
 
@@ -47,7 +44,7 @@ Add this line:
 
 =head1 AUTHOR
 
-Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
+Averkios Averkiadis E<lt>aaverkios at outlook dot comE<gt>
 
 =for html <p>All bugs should be reported via email to <a
 href="mailto:bug-RT-Extension-ReplyWithMail@rt.cpan.org">bug-RT-Extension-ReplyWithMail@rt.cpan.org</a>
@@ -62,7 +59,7 @@ href="http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-ReplyWithMai
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2021 by Averkios
+This software is Copyright (c) 2021 by Averkios Averkiadis
 
 This is free software, licensed under:
 

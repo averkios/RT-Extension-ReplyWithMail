@@ -1,7 +1,7 @@
 ---
 abstract: 'RT-Extension-ReplyWithMail Extension'
 author:
-  - 'Best Practical Solutions, LLC <modules@bestpractical.com>'
+  - 'Averkios Averkiadis <aaverkios at outlook dot com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
 configure_requires:
@@ -22,7 +22,7 @@ requires:
   perl: 5.10.1
 resources:
   license: http://opensource.org/licenses/gpl-license.php
-  repository: https://github.com/bestpractical/rt-extension-replywithmail
+  repository: https://github.com/averkios/RT-Extension-ReplyWithMail
 version: '0.01'
 x_module_install_rtx_version: '0.42'
 x_requires_rt: 4.4.0
