@@ -12,7 +12,7 @@
 #   MakeMaker Parameters:
 
 #     ABSTRACT => q[RT-Extension-ReplyWithMail Extension]
-#     AUTHOR => [q[Averkios Averkiadis <averkios at outlook dot com>]]
+#     AUTHOR => [q[Averkios Averkiadis <aaverkios at outlook dot com>]]
 #     BUILD_REQUIRES => { ExtUtils::MakeMaker=>q[6.36] }
 #     CONFIGURE_REQUIRES => {  }
 #     DISTNAME => q[RT-Extension-ReplyWithMail]
@@ -800,7 +800,7 @@ testdb_static test_static :: subdirs-test_static
 ppd :
 	$(NOECHO) $(ECHO) '<SOFTPKG NAME="RT-Extension-ReplyWithMail" VERSION="0.01">' > RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT>RT-Extension-ReplyWithMail Extension</ABSTRACT>' >> RT-Extension-ReplyWithMail.ppd
-	$(NOECHO) $(ECHO) '    <AUTHOR>Averkios Averkiadis &lt;averkios at outlook dot com&gt;</AUTHOR>' >> RT-Extension-ReplyWithMail.ppd
+	$(NOECHO) $(ECHO) '    <AUTHOR>Averkios Averkiadis &lt;aaverkios at outlook dot com&gt;</AUTHOR>' >> RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '        <ARCHITECTURE NAME="x86_64-linux-5.32" />' >> RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '        <CODEBASE HREF="" />' >> RT-Extension-ReplyWithMail.ppd
