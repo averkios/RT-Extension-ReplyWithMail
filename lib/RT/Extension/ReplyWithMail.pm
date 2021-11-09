@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package RT::Extension::ReplyWithMail;
 
-our $VERSION = '0.01';
+our $VERSION = '0.014';
 
 =head1 NAME
 

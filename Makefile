@@ -30,7 +30,7 @@
 #     NO_META => q[1]
 #     PREREQ_PM => { ExtUtils::MakeMaker=>q[6.36] }
 #     TEST_REQUIRES => {  }
-#     VERSION => q[0.01]
+#     VERSION => q[0.014]
 #     VERSION_FROM => q[lib/RT/Extension/ReplyWithMail.pm]
 #     dist => {  }
 #     realclean => { FILES=>q[MYMETA.yml] }
@@ -72,11 +72,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = RT::Extension::ReplyWithMail
 NAME_SYM = RT_Extension_ReplyWithMail
-VERSION = 0.01
+VERSION = 0.014
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_01
+VERSION_SYM = 0_014
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.01
+XS_VERSION = 0.014
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -273,7 +273,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = RT-Extension-ReplyWithMail
-DISTVNAME = RT-Extension-ReplyWithMail-0.01
+DISTVNAME = RT-Extension-ReplyWithMail-0.014
 
 
 # --- MakeMaker macro section:
@@ -798,7 +798,7 @@ testdb_static test_static :: subdirs-test_static
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd :
-	$(NOECHO) $(ECHO) '<SOFTPKG NAME="RT-Extension-ReplyWithMail" VERSION="0.01">' > RT-Extension-ReplyWithMail.ppd
+	$(NOECHO) $(ECHO) '<SOFTPKG NAME="RT-Extension-ReplyWithMail" VERSION="0.014">' > RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT>RT-Extension-ReplyWithMail Extension</ABSTRACT>' >> RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '    <AUTHOR>Averkios Averkiadis &lt;aaverkios at outlook dot com&gt;</AUTHOR>' >> RT-Extension-ReplyWithMail.ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> RT-Extension-ReplyWithMail.ppd
